@@ -8,7 +8,7 @@ cd api docker
 
 docker build -t api-sorvete .
 
-docker run -p 3000:8080 api-sorvete
+docker run -p 3000:3000 api-sorvete
 
 Rotas:
 GET/sorvetes
